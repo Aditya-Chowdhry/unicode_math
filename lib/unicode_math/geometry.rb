@@ -36,6 +36,8 @@ module UnicodeMath
           	end
           		dist2.push(calculate_distance(array[s + 1],array[0]))
           end
+          dist1 = dist1.sort
+          dist2 = dist2.sort
           
           (dist1 == dist2)
         end
